@@ -1,1 +1,5 @@
 body { background:silver; }
+
+header { background: white;  }
+
+header nav { display: flex; }
