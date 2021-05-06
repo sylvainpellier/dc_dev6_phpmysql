@@ -13,3 +13,4 @@ die("error");
 
 
 require "fonctions/portfolios.php";
+require "classes/Humain.class.php";
