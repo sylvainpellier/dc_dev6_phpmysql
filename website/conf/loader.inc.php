@@ -14,3 +14,7 @@ die("error");
 
 require "fonctions/portfolios.php";
 require "classes/Humain.class.php";
+require "classes/GestionHumains.class.php";
+
+Humain::$bd = $dbh;
+GestionHumains::$db = $dbh;
