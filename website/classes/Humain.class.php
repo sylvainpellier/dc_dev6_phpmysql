@@ -8,6 +8,16 @@ class Humain
     private $surname;
     private $age;
 
+    public function __construct(string $name, string $surname)
+    {
+        if($name && $surname)
+        {
+            $this->name = $name;
+            $this->surname = $surname;
+        }
+
+        $this->age = 1;
+    }
 
     /**
      * @return mixed

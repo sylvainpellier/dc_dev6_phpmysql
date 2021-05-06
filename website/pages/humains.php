@@ -9,9 +9,7 @@
 <?php
 
     if(isset($_POST["name"], $_POST["surname"])) {
-        $toto = new Humain();
-        $toto->setName($_POST["name"]);
-        $toto->setSurname($_POST["surname"]);
+        $toto = new Humain($_POST["name"],$_POST["surname"]);
         $resultat = $toto->insert();
         if($resultat)
         {
