@@ -18,3 +18,5 @@ require "classes/GestionHumains.class.php";
 
 Humain::$bd = $dbh;
 GestionHumains::$db = $dbh;
+
+require "classes/Animal.class.php";
